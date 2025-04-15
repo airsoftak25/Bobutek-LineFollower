@@ -1,7 +1,4 @@
-# About Us
-We are group of friend who like elektro stuff / code and work on ours project
-
 # Team
-- Airsoftak - Modeling / Elektro
-- Luboš - Elektro / Modeling / Code
-- Pelikán - Code / Elektro
+- Vadim Sobčuk - Modeling / Elektro
+- Luboš Stránský - Elektro / Modeling / Code
+- Daniel Pelikán - Code / Elektro
