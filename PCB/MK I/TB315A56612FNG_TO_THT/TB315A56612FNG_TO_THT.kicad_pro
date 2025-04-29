@@ -448,8 +448,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "lf_zetor_board"
+    ],
+    "pinned_symbol_libs": [
+      "lf_zetor_kicad_sch"
+    ]
   },
   "meta": {
     "filename": "TB315A56612FNG_TO_THT.kicad_pro",
