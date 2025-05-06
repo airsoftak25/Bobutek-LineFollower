@@ -457,7 +457,7 @@
   },
   "meta": {
     "filename": "TB315A56612FNG_TO_THT.kicad_pro",
-    "version": 1
+    "version": 3
   },
   "net_settings": {
     "classes": [
@@ -472,6 +472,7 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -480,7 +481,7 @@
       }
     ],
     "meta": {
-      "version": 3
+      "version": 4
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -617,6 +618,14 @@
     [
       "aa97f465-4c06-407f-954d-2aeeb7327ce9",
       "Root"
+    ],
+    [
+      "1a2e27b3-54d8-4c5d-9267-1234b1665a28",
+      "main board"
+    ],
+    [
+      "0ceb0193-d501-42bd-a1a9-72e86e298890",
+      "senzor ring"
     ]
   ],
   "text_variables": {}
