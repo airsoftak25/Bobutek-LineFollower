@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 25,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -28,8 +28,12 @@
       "vias": true,
       "zones": true
     },
-    "visible_items": [],
-    "visible_layers": "ffffff5_ffffffff",
+    "visible_items": [
+      "ratsnest",
+      "grid",
+      "shapes"
+    ],
+    "visible_layers": "00000000_00000000_0fffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -39,8 +43,8 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "TB315A56612FNG_TO_THT.kicad_prl",
-    "version": 3
+    "filename": "senzor_ring.kicad_prl",
+    "version": 5
   },
   "net_inspector_panel": {
     "col_hidden": [
