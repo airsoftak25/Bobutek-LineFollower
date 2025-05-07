@@ -1173,7 +1173,7 @@
 		)
 		(uuid d748ef91-f12e-4b1e-8263-4696815defbe)
 	)
-	(text "motor output/input with encoder encouder\n"
+	(text "Senzor Outpout Conectors\n"
 		(exclude_from_sim no)
 		(at 196.215 55.245 0)
 		(effects
@@ -2407,6 +2407,16 @@
 		)
 		(uuid "ffbdcd5b-cb43-4f0b-b848-2748cd35ba84")
 	)
+	(label "VCC = +5V"
+		(at 170.18 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b9a2003-3f72-4a65-994f-f8a657a04562")
+	)
 	(global_label "Sen4Out"
 		(shape input)
 		(at 57.15 149.86 0)
@@ -2420,6 +2430,28 @@
 		(uuid "26880b83-f420-43d7-9d2b-caee19e2d843")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 67.425 149.7806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Sen8Out"
+		(shape input)
+		(at 201.93 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2c8308f1-8447-4225-9183-2e33d775288e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 212.205 40.5606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2469,6 +2501,50 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Sen5Out"
+		(shape input)
+		(at 185.42 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "34147742-54ee-40c9-a8ec-0e40f5704a3b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.573 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Sen4Out"
+		(shape input)
+		(at 185.42 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "381fcbfc-2200-477e-bc0c-3671664ac1bc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.573 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2539,6 +2615,50 @@
 			)
 		)
 	)
+	(global_label "Sen6Out"
+		(shape input)
+		(at 201.93 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a251577d-35b0-4e9e-bcd2-c3abe68b22c5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 212.777 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Sen9Out"
+		(shape input)
+		(at 201.93 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a8ac663e-5f4a-47b4-94af-3f6238868b10")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 212.205 38.0206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Sen5Out"
 		(shape input)
 		(at 123.19 35.56 0)
@@ -2557,6 +2677,50 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Sen7Out"
+		(shape input)
+		(at 201.93 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c022bedd-6ae7-4467-a83e-d51178f048c8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 212.205 43.1006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Sen2Out"
+		(shape input)
+		(at 185.42 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c300b265-37e0-4aaa-8b0c-5dc311558065")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.573 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2605,6 +2769,50 @@
 			)
 		)
 	)
+	(global_label "Sen1Out"
+		(shape input)
+		(at 185.42 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d3896db7-e9f5-48ab-89a3-f6fc90729f84")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.573 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Sen3Out"
+		(shape input)
+		(at 185.42 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d683434a-960d-418e-a32d-a7ca868667cf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.573 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:R")
 		(at 93.98 25.4 90)
@@ -2615,7 +2823,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08a90dad-fd8f-4553-9861-ddf291fd2d22")
-		(property "Reference" "R9"
+		(property "Reference" "R12"
 			(at 93.98 19.05 90)
 			(effects
 				(font
@@ -2673,6 +2881,12 @@
 			(uuid "c9d1998a-94eb-4760-a105-1fd907bfdd5b")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "R12")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "R9")
@@ -2691,7 +2905,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09a8e59f-6aa4-476d-b088-dc0566f8b3fb")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR0122"
 			(at 88.9 116.84 0)
 			(effects
 				(font
@@ -2738,6 +2952,12 @@
 			(uuid "71bb24d2-53ce-49a5-a5c3-78f44998d09e")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "#PWR0122")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "#PWR033")
@@ -2756,7 +2976,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b850318-45bc-4128-afc0-478b7a298ff6")
-		(property "Reference" "R6"
+		(property "Reference" "R8"
 			(at 59.69 95.25 90)
 			(effects
 				(font
@@ -2814,6 +3034,12 @@
 			(uuid "918f40d2-3676-42e5-a0d2-197befe59a38")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "R8")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "R6")
@@ -2832,7 +3058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e86f738-8786-4d6d-ab0f-cb9d41bdddf6")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR0123"
 			(at 88.9 101.6 0)
 			(effects
 				(font
@@ -2879,6 +3105,12 @@
 			(uuid "44112c09-57d3-4340-9a33-974f5ffb2abf")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "#PWR0123")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "#PWR032")
@@ -2897,7 +3129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1041b3f9-4c04-4695-bc6f-a5dac252693b")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR0119"
 			(at 50.8 116.84 0)
 			(effects
 				(font
@@ -2944,6 +3176,12 @@
 			(uuid "b4be814f-2723-4c17-9d24-d84ee4d4a2f9")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "#PWR019")
@@ -2962,7 +3200,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b714777-c0d5-42d0-b2e8-dd7b0bd63b84")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 58.42 57.15 90)
 			(effects
 				(font
@@ -3020,6 +3258,12 @@
 			(uuid "47064f4d-e5e9-4531-85f9-314850c6b6f8")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "R5")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "R4")
@@ -3038,7 +3282,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b74d108-744e-4817-9b9d-501051a2fd53")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR0108"
 			(at 114.3 193.04 0)
 			(effects
 				(font
@@ -3085,6 +3329,12 @@
 			(uuid "008a2082-151f-48a3-a9c2-ea490e792316")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "#PWR036")
@@ -3103,7 +3353,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f7a430b-46e0-443f-a888-e71b33b26228")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR0101"
 			(at 128.27 139.7 0)
 			(effects
 				(font
@@ -3150,6 +3400,12 @@
 			(uuid "36e9f449-5737-4852-ac45-72099e927374")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "#PWR040")
@@ -3168,7 +3424,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "218310ea-647f-45ca-92c2-9e92f0a0c187")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR0128"
 			(at 24.13 25.4 0)
 			(effects
 				(font
@@ -3215,9 +3471,81 @@
 			(uuid "af787045-0c8d-4e60-bec9-32b5f53e8fee")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "#PWR0128")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 201.93 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23facc87-de6e-4284-a4f9-769eb0af5b6a")
+		(property "Reference" "#PWR033"
+			(at 208.28 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 205.74 48.2599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fd18c98a-296d-452d-b1a5-211ae4a74703")
+		)
+		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -3233,7 +3561,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26040e73-e689-4902-98e9-04c2a9c1c0fe")
-		(property "Reference" "R16"
+		(property "Reference" "R15"
 			(at 123.19 133.35 90)
 			(effects
 				(font
@@ -3291,6 +3619,12 @@
 			(uuid "0b652d08-e27b-46d6-ad2b-aa47fb1eb590")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "R15")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "R16")
@@ -3309,7 +3643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26fbf8fd-e847-42ac-b67b-805ed0c1a15a")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR0131"
 			(at 22.86 154.94 0)
 			(effects
 				(font
@@ -3356,6 +3690,12 @@
 			(uuid "1c09220b-3c41-4f84-8684-4bdbf6a7b051")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "#PWR0131")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "#PWR011")
@@ -3374,7 +3714,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28c95fa7-9ae8-45cf-9a9d-b2882cac1729")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR0133"
 			(at 24.13 40.64 0)
 			(effects
 				(font
@@ -3421,6 +3761,12 @@
 			(uuid "fea38488-969c-423f-a1c7-52ae58fa1f3b")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "#PWR0133")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "#PWR013")
@@ -3439,7 +3785,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28dfaa04-900a-4eb2-adc1-1f1044fab2ed")
-		(property "Reference" "R14"
+		(property "Reference" "R18"
 			(at 124.46 95.25 90)
 			(effects
 				(font
@@ -3497,6 +3843,12 @@
 			(uuid "2b6d8ce1-7aa5-4b23-9c53-26fa3c56fdd7")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "R18")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "R14")
@@ -3515,7 +3867,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a79f7ad-726d-4001-9d8a-ceb8e42df3fa")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR0102"
 			(at 114.3 154.94 0)
 			(effects
 				(font
@@ -3562,6 +3914,12 @@
 			(uuid "82eacb30-4205-4471-8c08-e77efe3e210b")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "#PWR035")
@@ -3644,6 +4002,12 @@
 			(uuid "6ccf4b18-09de-4c4d-9cfe-a9a707bd3d7e")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "U2")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "U2")
@@ -3662,7 +4026,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fbd9e47-7efa-4f5c-b78f-b2fd07d25bc8")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR0116"
 			(at 114.3 78.74 0)
 			(effects
 				(font
@@ -3709,6 +4073,12 @@
 			(uuid "a8daf0f0-5533-419e-92aa-deb168743752")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "#PWR034")
@@ -3727,7 +4097,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fd92e11-0d39-4a09-9cee-9d3434a3a462")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR0109"
 			(at 49.53 154.94 0)
 			(effects
 				(font
@@ -3774,6 +4144,12 @@
 			(uuid "e17203f0-6424-47bf-8580-a9221fb48bdb")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "#PWR017")
@@ -3792,7 +4168,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3093d064-18be-4a28-8684-16e1c972f602")
-		(property "Reference" "R15"
+		(property "Reference" "R10"
 			(at 92.71 133.35 90)
 			(effects
 				(font
@@ -3850,6 +4226,12 @@
 			(uuid "3d840a4a-af47-454f-8007-6a15f5bc029a")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "R10")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "R15")
@@ -3868,7 +4250,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "315d2f8c-53da-4358-b8aa-b66bccde9b9d")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR0136"
 			(at 88.9 25.4 0)
 			(effects
 				(font
@@ -3915,6 +4297,12 @@
 			(uuid "24b2b63b-bd11-4c88-86fe-63d0462dbd75")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "#PWR0136")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "#PWR030")
@@ -3933,7 +4321,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35bdf096-c22d-4ac9-9b42-77a8f293a989")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR0107"
 			(at 87.63 193.04 0)
 			(effects
 				(font
@@ -3980,6 +4368,12 @@
 			(uuid "3e1a655e-4044-4b3f-a393-74f0fc992778")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "#PWR029")
@@ -3998,7 +4392,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3cf0d320-e536-4d7a-a424-8a93ee0a5d75")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR0127"
 			(at 24.13 101.6 0)
 			(effects
 				(font
@@ -4045,6 +4439,12 @@
 			(uuid "957bb3f3-06f8-46b9-a3dc-90f3f16f09d6")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "#PWR014")
@@ -4063,7 +4463,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d01383e-7428-4b8a-92a1-ff7a981c30a9")
-		(property "Reference" "R11"
+		(property "Reference" "R9"
 			(at 92.71 57.15 90)
 			(effects
 				(font
@@ -4121,6 +4521,12 @@
 			(uuid "2ba47ac4-e2d6-4778-a0a9-b10c899ac5b2")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "R9")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "R11")
@@ -4139,7 +4545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f211987-d928-4e5c-9af1-3184b79f4b83")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR0126"
 			(at 22.86 63.5 0)
 			(effects
 				(font
@@ -4186,6 +4592,12 @@
 			(uuid "f67e0d52-6cdb-4d5d-86df-46597b07cfb1")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "#PWR0126")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "#PWR08")
@@ -4268,6 +4680,12 @@
 			(uuid "6f8d3b87-d795-4ea5-91f9-cf11c1aaa4b0")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "U7")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "U7")
@@ -4344,6 +4762,12 @@
 			(uuid "e282f5ba-8bcb-4d30-b5c9-eeb307ac4435")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "R13")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "R13")
@@ -4362,7 +4786,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48488cf9-1f05-4617-83be-61062e07017c")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR0124"
 			(at 22.86 78.74 0)
 			(effects
 				(font
@@ -4409,6 +4833,12 @@
 			(uuid "8e59c11b-0d3d-4e19-8f9c-b1661737e799")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "#PWR0124")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "#PWR09")
@@ -4427,7 +4857,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bc6d5de-db77-44da-a60f-816b42afda2a")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR0130"
 			(at 22.86 139.7 0)
 			(effects
 				(font
@@ -4474,6 +4904,12 @@
 			(uuid "2d8c948e-8ec8-43ce-bc80-90d4643dc4bb")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "#PWR0130")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "#PWR010")
@@ -4492,7 +4928,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4dd46f37-106a-4334-95dd-d833ff2fbf42")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR0129"
 			(at 64.77 25.4 0)
 			(effects
 				(font
@@ -4539,6 +4975,12 @@
 			(uuid "b3c53b28-c6c5-4a90-a957-ba787653bed9")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "#PWR022")
@@ -4621,6 +5063,12 @@
 			(uuid "7358390a-c330-4e17-8898-a0a2c4a0d07c")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "U5")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "U5")
@@ -4639,7 +5087,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50ba1201-c43b-4518-80bf-ea5d261f5de5")
-		(property "Reference" "R3"
+		(property "Reference" "R1"
 			(at 27.94 57.15 90)
 			(effects
 				(font
@@ -4697,6 +5145,12 @@
 			(uuid "dfefe70e-cdbc-4cd0-89a4-3b2934bdfa6b")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "R3")
@@ -4715,7 +5169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55e474d9-0a1d-4810-9ae4-e7c6913a4e47")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR0104"
 			(at 87.63 154.94 0)
 			(effects
 				(font
@@ -4762,6 +5216,12 @@
 			(uuid "c4d7bd3e-f22f-44b6-9bac-0b7d4179f41b")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "#PWR027")
@@ -4780,7 +5240,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56ec0b6a-bacd-40c3-a23f-1d77d2677ee0")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR0105"
 			(at 128.27 177.8 0)
 			(effects
 				(font
@@ -4827,6 +5287,12 @@
 			(uuid "7a367da8-2f03-4253-9c84-c99b2eef526b")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "#PWR041")
@@ -4845,7 +5311,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d481c5b-9a1c-43f3-93fd-46dc110eb630")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR0117"
 			(at 87.63 78.74 0)
 			(effects
 				(font
@@ -4892,6 +5358,12 @@
 			(uuid "13fa3baf-aec4-460d-b60a-30ccaad8cdea")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "#PWR025")
@@ -4910,7 +5382,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e70b9f3-46dc-4185-9712-fd42d0a57530")
-		(property "Reference" "R10"
+		(property "Reference" "R17"
 			(at 124.46 19.05 90)
 			(effects
 				(font
@@ -4968,6 +5440,12 @@
 			(uuid "e9d5d74d-4a50-4317-a7a3-80dd0c806a81")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "R17")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "R10")
@@ -4986,7 +5464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a4fe098-5a52-439e-9237-5641f3430e06")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR0110"
 			(at 63.5 139.7 0)
 			(effects
 				(font
@@ -5033,6 +5511,12 @@
 			(uuid "d6ffa26b-b2c5-4bc0-9a2e-593a164898e3")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "#PWR021")
@@ -5051,7 +5535,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b25b461-6b9e-44fe-aefe-5cfdce5d7174")
-		(property "Reference" "U6"
+		(property "Reference" "U13"
 			(at 105.41 57.15 0)
 			(effects
 				(font
@@ -5115,6 +5599,12 @@
 			(uuid "e21f5412-9c7c-402c-b920-aa554f25bcb2")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "U13")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "U6")
@@ -5133,7 +5623,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d0d06b4-c90d-4fbe-b2cb-c59d47cc0142")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR0112"
 			(at 128.27 63.5 0)
 			(effects
 				(font
@@ -5180,6 +5670,12 @@
 			(uuid "ca204615-637c-46a7-80db-8b9cbc9c7453")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "#PWR039")
@@ -5198,7 +5694,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "714135a3-9d0a-4823-8a5d-ed6454019d64")
-		(property "Reference" "R18"
+		(property "Reference" "R16"
 			(at 123.19 171.45 90)
 			(effects
 				(font
@@ -5256,9 +5752,81 @@
 			(uuid "806c3428-f74c-4e43-bbe3-890d86697a32")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "R16")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 201.93 35.56 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72cfac60-3b33-4798-83c2-6369746c76a7")
+		(property "Reference" "#PWR042"
+			(at 198.12 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 205.74 35.5599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bb549c5a-94bb-4b2b-819f-cde1f3241dac")
+		)
+		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -5273,8 +5841,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "72cfac60-3b33-4798-83c2-6369746c76a7")
-		(property "Reference" "#PWR042"
+		(uuid "72cfac60-3b33-4798-83c2-6369746c76a8")
+		(property "Reference" "#PWR0135"
 			(at 129.54 25.4 0)
 			(effects
 				(font
@@ -5318,9 +5886,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "bb549c5a-94bb-4b2b-819f-cde1f3241dac")
+			(uuid "bb549c5a-94bb-4b2b-819f-cde1f3241dad")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "#PWR0135")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "#PWR042")
@@ -5339,7 +5913,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c151bda-d94f-41b3-b431-00898c944801")
-		(property "Reference" "R5"
+		(property "Reference" "R4"
 			(at 29.21 95.25 90)
 			(effects
 				(font
@@ -5397,6 +5971,12 @@
 			(uuid "fa117af9-d947-4628-9d5e-bf58c0938ef3")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "R4")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "R5")
@@ -5415,7 +5995,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d489994-b15c-43c1-a638-f1102950e008")
-		(property "Reference" "U8"
+		(property "Reference" "U12"
 			(at 105.41 133.35 0)
 			(effects
 				(font
@@ -5479,6 +6059,12 @@
 			(uuid "10933bf1-fe0c-4c24-ad73-b0a08e87eefa")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "U12")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "U8")
@@ -5497,7 +6083,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e85f60e-45a8-4d1d-b24e-77b39735d3a8")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR0111"
 			(at 115.57 40.64 0)
 			(effects
 				(font
@@ -5544,6 +6130,12 @@
 			(uuid "aa52a900-225d-4953-9c2a-a7622c3419b2")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "#PWR037")
@@ -5562,7 +6154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f0acb61-1fe5-4c8b-8e25-9a8dbcc43c05")
-		(property "Reference" "R7"
+		(property "Reference" "R2"
 			(at 27.94 133.35 90)
 			(effects
 				(font
@@ -5620,6 +6212,12 @@
 			(uuid "40de1fd3-d07a-4181-a929-de53683f2163")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "R2")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "R7")
@@ -5638,7 +6236,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "816935ec-54be-478a-9059-35218490b77a")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR0125"
 			(at 24.13 116.84 0)
 			(effects
 				(font
@@ -5685,6 +6283,12 @@
 			(uuid "ba48c7a4-b0a6-4c1e-b28c-728f4141b60c")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "#PWR015")
@@ -5703,7 +6307,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82737f55-5da9-4138-88cd-a5cdecf0ec8f")
-		(property "Reference" "R12"
+		(property "Reference" "R14"
 			(at 123.19 57.15 90)
 			(effects
 				(font
@@ -5761,6 +6365,12 @@
 			(uuid "f163bb9c-dcc2-4e77-866e-49a20622c92e")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "R14")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "R12")
@@ -5779,7 +6389,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "827d2d44-e92b-4329-9ce3-9f1821a75fa4")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR0118"
 			(at 49.53 78.74 0)
 			(effects
 				(font
@@ -5826,6 +6436,12 @@
 			(uuid "2f974efa-935e-441b-b0a5-ebd2d4da263a")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "#PWR0118")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "#PWR016")
@@ -5844,7 +6460,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98993139-91a8-4736-9b7f-8d96fc7a831d")
-		(property "Reference" "R8"
+		(property "Reference" "R6"
 			(at 58.42 133.35 90)
 			(effects
 				(font
@@ -5902,6 +6518,12 @@
 			(uuid "c3718abf-1a91-4beb-8a6d-ce61b6108aad")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "R6")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "R8")
@@ -5984,6 +6606,12 @@
 			(uuid "995e198b-0681-443c-97e7-d55553ac5a6d")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "U3")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "U3")
@@ -6002,7 +6630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9cf02883-97ac-4fcb-ad5f-cb47b2435e74")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR0103"
 			(at 87.63 139.7 0)
 			(effects
 				(font
@@ -6049,6 +6677,12 @@
 			(uuid "c916e626-5f26-4d8b-933d-7c91cdcd8aad")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "#PWR026")
@@ -6067,7 +6701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a10b6c87-9d37-4757-ad7b-53cb4e09d0da")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR0134"
 			(at 63.5 63.5 0)
 			(effects
 				(font
@@ -6114,6 +6748,12 @@
 			(uuid "f4057ad2-8917-4004-a2d6-cc946054ea2b")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "#PWR0134")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "#PWR020")
@@ -6196,6 +6836,12 @@
 			(uuid "5935f081-bfd3-42b4-b576-0f9aa79c5495")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "U9")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "U9")
@@ -6214,7 +6860,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4a16bde-a0c1-472c-9cb3-b2ed00b9554d")
-		(property "Reference" "R2"
+		(property "Reference" "R7"
 			(at 59.69 19.05 90)
 			(effects
 				(font
@@ -6272,6 +6918,12 @@
 			(uuid "441a79ff-a8d4-445a-b0d1-270a9c838b6f")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "R7")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "R2")
@@ -6354,6 +7006,12 @@
 			(uuid "a527628b-4343-4e29-879f-f4b2fc00333d")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "U4")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "U4")
@@ -6364,7 +7022,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x06_Pin")
-		(at 199.39 36.83 0)
+		(at 196.85 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6372,8 +7030,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6d659ad-2320-4619-b302-b4af64e78fa9")
-		(property "Reference" "J2"
-			(at 200.025 29.21 0)
+		(property "Reference" "J3"
+			(at 197.485 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6381,7 +7039,7 @@
 			)
 		)
 		(property "Value" "Conn_01x06_Pin"
-			(at 200.025 29.21 0)
+			(at 197.485 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6390,7 +7048,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal"
-			(at 199.39 36.83 0)
+			(at 196.85 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6399,7 +7057,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 199.39 36.83 0)
+			(at 196.85 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6408,7 +7066,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 199.39 36.83 0)
+			(at 196.85 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6435,6 +7093,12 @@
 			(uuid "7f789732-43f0-4160-9bba-ad05b548f85e")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "J3")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "J2")
@@ -6453,7 +7117,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9ffb4fd-083a-4d4e-8ddb-e53e3baa4906")
-		(property "Reference" "R1"
+		(property "Reference" "R3"
 			(at 29.21 19.05 90)
 			(effects
 				(font
@@ -6511,6 +7175,12 @@
 			(uuid "b9a62bb7-3b74-448c-a927-de4ae26b07d5")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "R3")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "R1")
@@ -6521,7 +7191,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x06_Pin")
-		(at 193.04 39.37 180)
+		(at 190.5 43.18 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6529,7 +7199,7 @@
 		(dnp no)
 		(uuid "cc109e13-c462-4767-8f52-880c1f7f5ab8")
 		(property "Reference" "J1"
-			(at 191.135 28.575 0)
+			(at 188.595 32.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6537,7 +7207,7 @@
 			)
 		)
 		(property "Value" "Conn_01x06_Pin"
-			(at 192.405 46.99 0)
+			(at 189.865 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6546,7 +7216,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal"
-			(at 193.04 39.37 0)
+			(at 190.5 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6555,7 +7225,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 193.04 39.37 0)
+			(at 190.5 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6564,7 +7234,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 193.04 39.37 0)
+			(at 190.5 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6591,9 +7261,81 @@
 			(uuid "c4ef9bdf-557f-42c7-a731-7a0976d11346")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "J1")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 185.42 35.56 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd687b78-705e-4da6-8e88-da93a828c256")
+		(property "Reference" "#PWR032"
+			(at 179.07 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 181.61 35.5599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e4fc5267-8016-44a8-8882-ae9a7e3736f3")
+		)
+		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -6673,6 +7415,12 @@
 			(uuid "c9b4d078-def4-41be-823a-1343ed2b2504")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "U1")
@@ -6691,7 +7439,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d30821bd-79d8-4dbf-abfa-ae4a01c5bef1")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR0114"
 			(at 87.63 63.5 0)
 			(effects
 				(font
@@ -6738,6 +7486,12 @@
 			(uuid "9f8bcd0b-a2c0-4d16-a505-d19e2b52a2ea")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "#PWR024")
@@ -6756,7 +7510,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d405e382-0ef0-4467-a9a6-e51dcd593f77")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR0106"
 			(at 87.63 177.8 0)
 			(effects
 				(font
@@ -6803,6 +7557,12 @@
 			(uuid "f12542b3-c877-49d2-8373-5d992b5897e5")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "#PWR028")
@@ -6821,7 +7581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5d995d6-a04b-4772-bf2a-8d2eb49cdc57")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR0132"
 			(at 50.8 40.64 0)
 			(effects
 				(font
@@ -6868,6 +7628,12 @@
 			(uuid "ffa5467b-b4d0-42df-af62-52adf9e9120d")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "#PWR0132")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "#PWR018")
@@ -6886,7 +7652,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d66a3f58-3922-411f-908e-f49d5b07bb86")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR0120"
 			(at 64.77 101.6 0)
 			(effects
 				(font
@@ -6933,6 +7699,12 @@
 			(uuid "1468548f-9dcd-4ef9-a1c4-970a8ac31b41")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "#PWR0120")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "#PWR023")
@@ -6951,7 +7723,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6956fc6-56bf-4208-8c69-e7f2381debfc")
-		(property "Reference" "R17"
+		(property "Reference" "R11"
 			(at 92.71 171.45 90)
 			(effects
 				(font
@@ -7009,6 +7781,12 @@
 			(uuid "6c473e62-6ae4-4713-9523-b75fd059a80b")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "R11")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "R17")
@@ -7027,7 +7805,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed977e5a-465d-4518-9697-e70b0ef4f321")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR0115"
 			(at 129.54 101.6 0)
 			(effects
 				(font
@@ -7074,6 +7852,12 @@
 			(uuid "19541514-68e0-4104-9187-fe00c7af0af5")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "#PWR043")
@@ -7092,7 +7876,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6af9f91-2201-482c-b20b-fc4d9c43b59c")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR0113"
 			(at 88.9 40.64 0)
 			(effects
 				(font
@@ -7139,6 +7923,12 @@
 			(uuid "7277c2a2-a6e4-4b94-b0b0-7af7c3f7bc32")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "#PWR031")
@@ -7157,7 +7947,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd93f746-7539-42ea-9cd5-739cce5ac6a6")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR0121"
 			(at 115.57 116.84 0)
 			(effects
 				(font
@@ -7204,6 +7994,12 @@
 			(uuid "30da4878-6d72-42c1-a154-6a132fb7c26b")
 		)
 		(instances
+			(project "TB315A56612FNG_TO_THT"
+				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9/0ceb0193-d501-42bd-a1a9-72e86e298890"
+					(reference "#PWR0121")
+					(unit 1)
+				)
+			)
 			(project "senzor_ring"
 				(path "/ee93ed8e-ebc0-4247-a734-a07b431cff0d"
 					(reference "#PWR038")

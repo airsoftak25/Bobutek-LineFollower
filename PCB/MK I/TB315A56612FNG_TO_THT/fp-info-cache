@@ -1,4 +1,4 @@
-25208957173011065
+25212449787684464
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -101275,3 +101275,17 @@ Varistor VF
 0
 2
 2
+lf_zetor_board
+255SB
+<b>SLIDING SWITCH</b><p>distributor Buerklin, 11G810
+
+0
+3
+3
+lf_zetor_board
+MODULE_DEVKIT_V1_ESP32-WROOM-32
+
+
+0
+38
+38

@@ -1,0 +1,112 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "SL19-121" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -6.35 -1.905 90.0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "SL19-121" (id 1) (at -3.81 3.175 90.0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "SL19-121:255SB" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "Canal Components" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\n                        \n                            Switch: slide; 2-position; SPDT; 3A/250VAC; 6A/28VDC; ON-ON\n                        \n" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "None" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/SL19-121/Canal+Components/view-part/?ref=snap" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "SL19-121" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "Not in stock" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/SL19-121/Canal+Components/view-part/?ref=eda" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "SL19-121_0_0"
+      (polyline
+        (pts (xy -3.81 1.905) (xy -2.54 1.905)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -3.81 1.905) (xy -3.81 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -3.81 -1.905) (xy -5.08 -1.905)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -3.81 0.0) (xy -1.905 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -3.81 0.0) (xy -3.81 -1.905)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 0.0) (xy -0.762 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.254 0.0) (xy 0.635 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 -3.175) (xy 2.54 -1.905)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 -1.905) (xy 0.635 3.175)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 3.81 2.54) (xy 5.08 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 2.54) (xy 5.08 3.175)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 2.54) (xy 1.27 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 2.54) (xy 0.0 3.175)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.27 0.0) (xy 1.905 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -0.762 0.0) (xy -0.254 -0.762)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -0.254 -0.762) (xy 0.254 0.0)) (stroke (width 0.1524))
+      )
+      (pin passive line (at 2.54 -5.08 90.0) (length 2.54)
+        (name "P"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 5.08 5.08 270.0) (length 2.54)
+        (name "S"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 0.0 5.08 270.0) (length 2.54)
+        (name "O"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
