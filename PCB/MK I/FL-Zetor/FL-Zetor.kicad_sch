@@ -40,7 +40,7 @@
 			)
 		)
 		(instances
-			(project "TB315A56612FNG_TO_THT"
+			(project "FL-Zetor"
 				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9"
 					(page "3")
 				)
@@ -82,7 +82,7 @@
 			)
 		)
 		(instances
-			(project "TB315A56612FNG_TO_THT"
+			(project "FL-Zetor"
 				(path "/aa97f465-4c06-407f-954d-2aeeb7327ce9"
 					(page "2")
 				)

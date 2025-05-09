@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "lf_zetor_graphic")(type "KiCad")(uri "C:/Users/vadim/GitHub/Bobutek-LineFollower/PCB/libfiles/lf_zetor_graphic.pretty")(options "")(descr ""))
+)
