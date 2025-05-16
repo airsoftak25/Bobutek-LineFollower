@@ -1,7 +1,7 @@
 {
   "board": {
     "active_layer": 0,
-    "active_layer_preset": "All Layers",
+    "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
@@ -29,9 +29,28 @@
       "zones": true
     },
     "visible_items": [
-      12
+      "vias",
+      "footprint_text",
+      "footprint_anchors",
+      "ratsnest",
+      "grid",
+      "footprints_front",
+      "footprints_back",
+      "footprint_values",
+      "footprint_references",
+      "tracks",
+      "drc_errors",
+      "drawing_sheet",
+      "bitmaps",
+      "pads",
+      "zones",
+      "drc_warnings",
+      "drc_exclusions",
+      "locked_item_shadows",
+      "conflict_shadows",
+      "shapes"
     ],
-    "visible_layers": "fffffff_ffffffff",
+    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -42,7 +61,7 @@
   },
   "meta": {
     "filename": "FL-Zetor-Senzor.kicad_prl",
-    "version": 3
+    "version": 5
   },
   "net_inspector_panel": {
     "col_hidden": [
